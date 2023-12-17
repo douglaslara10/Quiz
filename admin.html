@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="admin-container">
+    <h1>Admin - Quiz</h1>
+    <form id="add-question-form">
+      <label for="question">Pergunta:</label>
+      <input type="text" id="question" name="question" required>
+      
+      <label for="options">Opções (separadas por vírgula):</label>
+      <input type="text" id="options" name="options" required>
+      
+      <label for="correctOption">Opção Correta (índice):</label>
+      <input type="number" id="correctOption" name="correctOption" required>
+
+      <button type="button" onclick="addQuestion()">Adicionar Pergunta</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>

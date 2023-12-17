@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro - Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="register-container">
+    <h1>Cadastro - Quiz</h1>
+    <form id="register-form">
+      <label for="username">Nome de Usuário:</label>
+      <input type="text" id="username" name="username" required>
+      
+      <label for="matricula">Matrícula:</label>
+      <input type="text" id="matricula" name="matricula" required>
+
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="button" onclick="registerUser()">Cadastrar</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="register.js"></script>
+</body>
+</html>
